@@ -9,6 +9,7 @@ function App() {
     <div className="">
      
       <Routes>
+        <Route path='/' element={ <Cv />} />
         <Route path='/formulaire' element={ <Formulaire />} />
         
 
